@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gr",
+				"grossPay"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"line",
+				"line2"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"com",
+				"computer_name"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"f",
+				"fat_cat"
+			],
+			[
+				"tabb",
+				"tabby_cat"
+			],
+			[
+				"fo",
+				"formatter"
+			],
+			[
+				"end",
+				"end12"
+			],
+			[
+				"e",
+				"end11"
+			],
+			[
+				"joke",
+				"joke_evaluation"
+			],
+			[
+				"metric",
+				"metric_height"
+			],
+			[
+				"me",
+				"metric_height"
+			],
+			[
+				"he",
+				"my_height"
+			],
+			[
+				"bu",
+				"buffer_profiles"
+			],
+			[
+				"fee",
+				"feedburner"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tiffanywhite/Music/iTunes/iTunes Music Library.xml",
+		"/Users/tiffanywhite/address-book-demo/server.js",
+		"/Users/tiffanywhite/Desktop/Git Repositories/address-book-demo/Procfile",
+		"/Users/tiffanywhite/Library/Application Support/Alfred 2/Workflow Data/com.stuartryan.alfred.rapidbrowsertabs/sites.yml",
+		"/Users/tiffanywhite/Library/Application Support/Alfred 2/Workflow Data/com.stuartryan.alfred.rapidbrowsertabs/setup.yml",
+		"/Users/tiffanywhite/Library/Application Support/Alfred 2/Workflow Data/sites.yml",
+		"/Users/tiffanywhite/.bash_profile",
+		"/private/var/folders/kl/55w_74kj5dxd9m08cqgds0c00000gn/T/tmpvxVrDh.txt",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/feed.xml",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex16.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex16_mine.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/form.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex13.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex14.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex15.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex15_sample.txt",
+		"/Users/tiffanywhite/Zed_Shaw_Python/import.html",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex12.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex9.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex10.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex11.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex0.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex7.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex8.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex6.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex5.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex4.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex1.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex2.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/ex3.py",
+		"/Users/tiffanywhite/Zed_Shaw_Python/Practice Python",
+		"/Users/tiffanywhite/Slogger-master/slogger_config",
+		"/Users/tiffanywhite/Soundcloud",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/_data/navigation.yml",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/_site/about/index.html",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/_templates/page",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/_config.yml",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/jekyll_site/Rakefile",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/.gitignore",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/rss.xml",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/buffer.rb",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/.git/config",
+		"/Users/tiffanywhite/Spotify_new.archive",
+		"/Users/tiffanywhite/Spotify_new.archive.sig",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/Gemfile",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/jekyll-bootstrap/_config.yml",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/jekyll-bootstrap/_site/index.html",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/jekyll-bootstrap/.gitignore",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/index.html",
+		"/Users/tiffanywhite/Desktop/Git Repositories/twhite96.github.io/_site/index copy.html",
+		"/Users/tiffanywhite/Codegangsta",
+		"/Users/tiffanywhite/Desktop/Git Repositories/github.io/Gemfile",
+		"/Users/tiffanywhite/greet.go",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch05/CreatingFunctions/script.js",
+		"/Users/tiffanywhite/Library/Mobile Documents/com~apple~CloudDocs/index.html",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch04/Comparison Operators/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch05/Parameters/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch03/Whitespace/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch04/switch statement/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch05/CreatingFunctions/container.html",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch04/Complex Conditions/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch04/if statement/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch03/Comments/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch03/Numbers/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch02/Input/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch02/First/script.js",
+		"/Users/tiffanywhite/Desktop/Foundations of Programming Ex Files/ch02/First/container.html",
+		"/Users/tiffanywhite/Library/Mobile Documents/com~apple~CloudDocs/2014-12-21_2.txt",
+		"/Users/tiffanywhite/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Git 2.2.1 Mavericks Intel Universal/setup git PATH for non-terminal programs.sh",
+		"/Users/tiffanywhite/Desktop/repos/git-basics/index.html",
+		"/Users/tiffanywhite/Desktop/repos/git-basics/_css/main.css",
+		"/private/etc/apache2/httpd.conf"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Payroll.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
