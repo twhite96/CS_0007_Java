@@ -3,7 +3,6 @@ This is a budget calculator
 Created date: September 15, 2015
 */
 
-
 import java.util.Scanner;
 
 public class P1A3_White_3663976
