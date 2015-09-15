@@ -1,3 +1,9 @@
+/* Author name: Tiffany White
+This is a budget calculator
+Created date: September 8, 2015
+Last modified date: September 13, 2015
+*/
+
 public class P1A2_White_3663976
 {
 	public static void main(String[] args)
