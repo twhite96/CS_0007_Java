@@ -18,8 +18,8 @@ public class White
 
 	double thirdScore = keyboard.nextDouble();
 
-	double totalScore = firstScore + secondScore + thirdScore / 3;
+	double totalScore = (firstScore + secondScore + thirdScore) / 3;
 
-	System.out.printf("Your class average is %,.2f%\n", totalScore);
+	System.out.printf("Your class average is %.2f\n", totalScore);
 	}
 }
