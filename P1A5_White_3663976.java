@@ -14,6 +14,9 @@ public class P1A5_White_3663976
 		System.out.print("Enter your overtime hours worked.");
 		double overtimeHoursWorked = keyboard.nextDouble();
 
+		// Clears keyboard buffer
+		keyboard.nextLine();
+
 		System.out.print("Enter your rent.");
 		double rent = keyboard.nextDouble();
 
@@ -22,6 +25,9 @@ public class P1A5_White_3663976
 
 		System.out.print("Enter the amount of your water bill.");
 		double waterBill = keyboard.nextDouble();
+
+		// Clears keyboard buffer
+		keyboard.nextLine();
 
 		System.out.print("Enter the amount of your sewage bill.");
 		double sewBill = keyboard.nextDouble();
@@ -32,10 +38,16 @@ public class P1A5_White_3663976
 		System.out.print("Enter the amount of your food budget.");
 		double foodBudget = keyboard.nextDouble();
 
+    // Clears keyboard buffer
+		keyboard.nextLine();
+
 		System.out.print("Enter the amount of your entertainment expenses.");
 		double entertainment = keyboard.nextDouble();
 
 		System.out.print("Enter the amount of your car expenses.");
 		double carExpenses = keyboard.nextDouble();
+
+		// Clears keyboard buffer
+		keyboard.nextLine();
 	}
 }
