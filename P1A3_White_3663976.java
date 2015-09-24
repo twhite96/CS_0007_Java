@@ -1,7 +1,7 @@
 /* Author name: Tiffany White
 This is a budget calculator
 Created date: September 15, 2015
-Last modified date: September 15, 2015
+Last modified date: September 23, 2015
 */
 
 
