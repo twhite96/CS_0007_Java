@@ -1,16 +1,24 @@
 /* Author name: Tiffany White
 This is a budget calculator
 Created date: September 22, 2015
+Last modified date: September 24, 2015
 */
 
+// This line imports the Scanner
 import java.util.Scanner;
 
+// This declares the public class
 public class P1A4_White_3663976
 {
 	public static void main(String[] args)
 	{
+		// This line declares adds the Scanner class
 		Scanner keyboard = new Scanner(System.in);
+
+		// This line prints out text to the screen
 	  System.out.print("Enter your hourly rate.");
+
+		// lines like these get user input from the keyboard and make them a double primitive data type
 		double hourlyRate = keyboard.nextDouble();
 
 		System.out.print("Enter your reguar hours worked.");
@@ -57,6 +65,6 @@ public class P1A4_White_3663976
 
 		// Clears keyboard buffer
 		keyboard.nextLine();
- 
+
 	}
 }

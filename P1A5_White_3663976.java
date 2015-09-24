@@ -1,17 +1,20 @@
 /* Author name: Tiffany White
 This is a budget calculator
 Created date: September 22, 2015
-Last modified date: September 23, 2015
+Last modified date: September 24, 2015
 */
 
-
+// This line imports the Scanner class to the document
 import java.util.Scanner;
 
 public class P1A5_White_3663976
 {
 	public static void main(String[] args)
 	{
+		// This line declares a scanner variable that will be used to get user input
 		Scanner keyboard = new Scanner(System.in);
+
+		// The lines like these print instructions to the screen and then get user input
 	  System.out.print("Enter your hourly rate.");
 		double hourlyRate = keyboard.nextDouble();
 
@@ -57,15 +60,23 @@ public class P1A5_White_3663976
 		// Clears keyboard buffer
 		keyboard.nextLine();
 
+		// This line calculates the user's gross pay
 		double grossPay = (regularHoursWorked + overtimeHoursWorked) * hourlyRate;
+
+		//This format string prints out the reults of the grossPay calculation and returns a new line
 		System.out.printf("Your gross pay is %.2f\n", grossPay);
 
+		// This line calculates expenses/deductions
 		double deductions = (rent + elecBill + waterBill + sewBill + gasBill
 		+ foodBudget + entertainment + carExpenses);
 
+		// This line declares variables in the double primitive data type
 		double rentPercentage, elecBillPercentage, waterBillPercentage, sewBillPercentage,
 		gasBillPercentage, foodBudgetPercentage, entertainmentPercentage, carExpensesPercentage;
 
+		/* The following lines of code calculate the percentages of each deduction against
+		the user's gross pay and prints out the results to the console, returning a new line
+		*/
 		rentPercentage = (rent * 100) / grossPay;
     System.out.printf("%.2f percent of your gross pay goes to rent.\n", rentPercentage);
 
@@ -90,7 +101,10 @@ public class P1A5_White_3663976
 		carExpensesPercentage = (carExpenses * 100) / grossPay;
 		System.out.printf("%.2f percent of your gross pay goes to your car.\n", carExpensesPercentage);
 
+		// This line calculates net pay after deductions are subtracted from the gross pay
     double netPay = (grossPay - deductions);
-		System.out.printf("Your net pay after deductions is %.2f.\n", netPay);	
+
+		// This format string prints out the net pay to the console and returns a new line
+		System.out.printf("Your net pay after deductions is %.2f.\n", netPay);
   }
 }
