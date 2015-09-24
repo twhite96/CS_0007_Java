@@ -89,5 +89,8 @@ public class P1A5_White_3663976
 
 		carExpensesPercentage = (carExpenses * 100) / grossPay;
 		System.out.printf("%.2f percent of your gross pay goes to your car.\n", carExpensesPercentage);
+
+    double netPay = (grossPay - deductions);
+		System.out.printf("Your net pay after deductions is %.2f.\n", netPay);	
   }
 }
