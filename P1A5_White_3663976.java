@@ -89,7 +89,5 @@ public class P1A5_White_3663976
 
 		carExpensesPercentage = (carExpenses * 100) / grossPay;
 		System.out.printf("%.2f percent of your gross pay goes to your car.\n", carExpensesPercentage);
-
-
-	}
+  }
 }
