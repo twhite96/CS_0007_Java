@@ -14,7 +14,13 @@ public class P1A5_White_3663976
 		// This line declares a scanner variable that will be used to get user input
 		Scanner keyboard = new Scanner(System.in);
 
+		// This line prints text to the screen
+		System.out.println("Welcome to Budget Calculator by Tiffany White. It will calculate your income and expenses.");
+
 		// The lines like these print instructions to the screen and then get user input
+    System.out.print("Enter your name.");
+		String name = keyboard.nextLine();
+
 	  System.out.print("Enter your hourly rate.");
 		double hourlyRate = keyboard.nextDouble();
 
@@ -64,7 +70,7 @@ public class P1A5_White_3663976
 		double grossPay = (regularHoursWorked + overtimeHoursWorked) * hourlyRate;
 
 		//This format string prints out the reults of the grossPay calculation and returns a new line
-		System.out.printf("Your gross pay is %.2f\n", grossPay);
+		System.out.printf("Your gross pay is $" + "%.2f\n", grossPay);
 
 		// This line calculates expenses/deductions
 		double deductions = (rent + elecBill + waterBill + sewBill + gasBill
@@ -78,33 +84,33 @@ public class P1A5_White_3663976
 		the user's gross pay and prints out the results to the console, returning a new line
 		*/
 		rentPercentage = (rent * 100) / grossPay;
-    System.out.printf("%.2f percent of your gross pay goes to rent.\n", rentPercentage);
+    System.out.printf("The amount of your gross pay that goes to rent is %.2f%%.\n", rentPercentage);
 
     elecBillPercentage = (elecBill * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your electric bill.\n", elecBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to your electric bill is %.2f%%.\n", elecBillPercentage);
 
 		waterBillPercentage = (waterBill * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your water bill.\n", waterBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to your water bill is %.2f%%.\n", waterBillPercentage);
 
 		sewBillPercentage = (sewBill * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your sewage bill.\n", sewBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to sewage is %.2f%%.\n", sewBillPercentage);
 
 		gasBillPercentage = (gasBill * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your gas bill.\n", gasBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to gas is %.2f%%.\n", gasBillPercentage);
 
 		foodBudgetPercentage = (foodBudget * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your food budget.\n", foodBudgetPercentage);
+		System.out.printf("The amount of your gross pay that goes to food is %.2f%%.\n", foodBudgetPercentage);
 
 		entertainmentPercentage = (entertainment * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to entertainment.\n", entertainmentPercentage);
+		System.out.printf("The amount of your gross pay that goes to entertainment is %.2f%%.\n", entertainmentPercentage);
 
 		carExpensesPercentage = (carExpenses * 100) / grossPay;
-		System.out.printf("%.2f percent of your gross pay goes to your car.\n", carExpensesPercentage);
+		System.out.printf("The amount of your gross pay that goes to your car is %.2f%%.\n", carExpensesPercentage);
 
 		// This line calculates net pay after deductions are subtracted from the gross pay
     double netPay = (grossPay - deductions);
 
 		// This format string prints out the net pay to the console and returns a new line
-		System.out.printf("Your net pay after deductions is %.2f.\n", netPay);
+		System.out.printf("Your net pay after deductions is $" + "%.2f.\n", netPay);
   }
 }

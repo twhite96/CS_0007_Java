@@ -27,7 +27,10 @@ public class P1A2_White_3663976
 		entertainment = 100;
 		carExpenses = 200;
 
-		// This line prints out the values in the declared variables to the screen
+		/* This line prints out the values in the declared variables to the screen,
+		adding a new line after each entry
+		*/
+
 		System.out.println("hourlyRate = " + hourlyRate + "\n" +
 			"overtime = " + overtime + "\n" + "regularHoursWorked = " + regularHoursWorked + "\n" +
 			"overtimeHoursWorked = " + overtimeHoursWorked + "\n" +
