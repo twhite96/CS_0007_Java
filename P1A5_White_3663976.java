@@ -1,7 +1,7 @@
 /* Author name: Tiffany White
 This is a budget calculator
 Created date: September 22, 2015
-Last modified date: September 24, 2015
+Last modified date: September 26, 2015
 */
 
 // This line imports the Scanner class to the document
@@ -24,7 +24,10 @@ public class P1A5_White_3663976
 	  System.out.print("Enter your hourly rate.");
 		double hourlyRate = keyboard.nextDouble();
 
-		System.out.print("Enter your reguar hours worked.");
+		System.out.print("Enter your overtime rate.");
+		double overtime = keyboard.nextDouble();
+
+		System.out.print("Enter your regular hours worked.");
 		int regularHoursWorked = keyboard.nextInt();
 
 		System.out.print("Enter your overtime hours worked.");
@@ -67,7 +70,7 @@ public class P1A5_White_3663976
 		keyboard.nextLine();
 
 		// This line calculates the user's gross pay
-		double grossPay = (regularHoursWorked + overtimeHoursWorked) * hourlyRate;
+		double grossPay = (regularHoursWorked * hourlyRate) + (overtimeHoursWorked * overtime);
 
 		//This format string prints out the reults of the grossPay calculation and returns a new line
 		System.out.printf("Your gross pay is $" + "%.2f\n", grossPay);
