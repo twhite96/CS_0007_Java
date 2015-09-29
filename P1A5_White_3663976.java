@@ -73,7 +73,7 @@ public class P1A5_White_3663976
 		double grossPay = (regularHoursWorked * hourlyRate) + (overtimeHoursWorked * overtime);
 
 		//This format string prints out the reults of the grossPay calculation and returns a new line
-		System.out.printf("Your gross pay is $" + "%.2f\n", grossPay);
+		System.out.printf("Your gross pay is $" + "%,.2f\n", grossPay);
 
 		// This line calculates expenses/deductions
 		double deductions = (rent + elecBill + waterBill + sewBill + gasBill
@@ -114,6 +114,6 @@ public class P1A5_White_3663976
     double netPay = (grossPay - deductions);
 
 		// This format string prints out the net pay to the console and returns a new line
-		System.out.printf("Your net pay after deductions is $" + "%.2f.\n", netPay);
+		System.out.printf("Your net pay after deductions is $" + "%,.2f.\n", netPay);
   }
 }
