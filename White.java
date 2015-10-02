@@ -1,22 +1,32 @@
 import java.util.Scanner;
+import java.io.*;
 
 public class White
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
-  Scanner keyboard = new Scanner(System.in);
+		// Gets the PrintWriter and Scanner classes
+		PrintWriter file = new PrintWriter("names.txt");
+		Scanner keyboard = new Scanner(System.in);
 
-	System.out.print("Enter your first test score.");
-  double firstScore = keyboard.nextDouble();
 
-	System.out.print("Enter your second test score.");
-  double secondScore = keyboard.nextDouble();
-
-	System.out.print("Enter your third test score.");
-	double thirdScore = keyboard.nextDouble();
-
-	double totalScore = (firstScore + secondScore + thirdScore) / 3;
-
-	System.out.printf("Your class average is %.2f\n", totalScore);
+		// Gets data and writes it to a file
+		for (int i = 1; i <= 3; i++)
+		{
+			//Gets name of friend
+			System.out.print("Enter the name of friend " + "number " + i + ": ");
+			String friendName = keyboard.nextLine();
+			file.println(friendName);
+		}
+		FileWriter fw = new FileWriter("names.txt", true);
+		PrintWriter pw = new PrintWriter(fw);
+		for (int i = 4; i <= 6; i++)
+		{
+			//Gets name of friend
+			System.out.print("Enter the name of friend " + "number " + i + ": ");
+			String friendName = keyboard.nextLine();
+			file.println(friendName);
+		}
+		file.close();
 	}
 }

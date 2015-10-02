@@ -86,29 +86,27 @@ public class P1A5_White_3663976
 		/* The following lines of code calculate the percentages of each deduction against
 		the user's gross pay and prints out the results to the console, returning a new line
 		*/
-		rentPercentage = (rent * 100) / grossPay;
-    System.out.printf("The amount of your gross pay that goes to rent is %.2f%%.\n", rentPercentage);
 
     elecBillPercentage = (elecBill * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to your electric bill is %.2f%%.\n", elecBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to your electric bill is %.2f%%. The amount you pay is %.2f.\n", elecBillPercentage, rent);
 
 		waterBillPercentage = (waterBill * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to your water bill is %.2f%%.\n", waterBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to your water bill is %.2f%%. The amount you pay is %.2f.\n", waterBillPercentage, waterBill);
 
 		sewBillPercentage = (sewBill * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to sewage is %.2f%%.\n", sewBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to sewage is %.2f%%. The amount you pay is %.2f.\n", sewBillPercentage, sewBill);
 
 		gasBillPercentage = (gasBill * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to gas is %.2f%%.\n", gasBillPercentage);
+		System.out.printf("The amount of your gross pay that goes to gas is %.2f%%. The amount you pay is %.2f.\n", gasBillPercentage, gasBill);
 
 		foodBudgetPercentage = (foodBudget * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to food is %.2f%%.\n", foodBudgetPercentage);
+		System.out.printf("The amount of your gross pay that goes to food is %.2f%%. The amount you pay is %.2f.\n", foodBudgetPercentage, foodBudget);
 
 		entertainmentPercentage = (entertainment * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to entertainment is %.2f%%.\n", entertainmentPercentage);
+		System.out.printf("The amount of your gross pay that goes to entertainment is %.2f%%. The amount you pay is %.2f.\n", entertainmentPercentage, entertainment);
 
 		carExpensesPercentage = (carExpenses * 100) / grossPay;
-		System.out.printf("The amount of your gross pay that goes to your car is %.2f%%.\n", carExpensesPercentage);
+		System.out.printf("The amount of your gross pay that goes to your car is %.2f%%. The amount you pay is %.2f.\n", carExpensesPercentage, carExpenses);
 
 		// This line calculates net pay after deductions are subtracted from the gross pay
     double netPay = (grossPay - deductions);
