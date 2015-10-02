@@ -1,7 +1,7 @@
 /* Author name: Tiffany White
 This is a budget calculator
 Created date: September 22, 2015
-Last modified date: September 26, 2015
+Last modified date: October 1, 2015
 */
 
 // This line imports the Scanner class to the document
