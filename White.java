@@ -1,36 +1,35 @@
-import java.util.Scanner;
-import java.io.*;
+// Imports the JOptionPane dialogue box
+import javax.swing.JOptionPane;
 
 public class White
 {
-	public static void main(String[] args) throws IOException
+	public static void displayMessage();
 	{
-		// Gets the PrintWriter and Scanner classes
-		PrintWriter file = new PrintWriter("names.txt");
-		Scanner keyboard = new Scanner(System.in);
-		String friendName = "";
-		// Gets data and writes it to a file
-		for (int i = 1; i <= 3; i++)
-		{
-			//Gets name of friend
-			System.out.print("Enter the name of friend number " + i + ": ");
-			friendName = keyboard.nextLine();
-			file.println(friendName);
-			System.out.println(friendName);
-		}
+		// Display message to the user
+	String message	= JOptionPane.showMessageDialog(msg);
+		msg = "Welcome to my sum program.";
+	}
+}
 
-		FileWriter fw = new FileWriter("names.txt", true);
-		PrintWriter pw = new PrintWriter(fw);
-		for (int i = 4; i <= 6; i++)
-		{
-			//Gets name of friend
-			System.out.print("Enter the name of friend number " + i + ": ");
-			friendName = keyboard.nextLine();
-			file.println(friendName);
-			System.out.println(friendName);
+public class White_2
+{
+  public static int showSum(int num1, int num2);
+	{
+	// Get input via dialog box
+  String number1 = JOptionPane.showInputDialog("Enter a number.");
+	// Stores input from user using parsing
+	int num1 = Integer.parseInt(number1);
 
-		}
+	// Get input via dialog box
+	String number2 = JOptionPane.showInputDialog("Enter another number.");
+	//Stores input from user using parsing
+	int num2 = Integer.parseInt(number2);
 
-		file.close();
+	// Adds input together
+	int sum;
+	sum = num1 + num2;
+
+	// Shows user sum of input using dialog box
+	String message = JOptionPane.showMessageDialog("The sum of the numbers you chose is " + sum);
 	}
 }
