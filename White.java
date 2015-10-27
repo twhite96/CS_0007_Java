@@ -3,10 +3,10 @@ import javax.swing.JOptionPane;
 
 public class White
 {
-	public static void displayMessage();
+	public static void main(String[] args)
 	{
 		// Display message to the user
-	String message	= JOptionPane.showMessageDialog(msg);
+	 input	= JOptionPane.showMessageDialog(msg);
 		msg = "Welcome to my sum program.";
 	}
 }
