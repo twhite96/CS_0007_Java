@@ -4,21 +4,32 @@ or the user should roll again.
 Date created: November 3, 2015
 Date modified: November 5, 2015
 */
+
+// Imports Random and Scanner classes
 import java.util.Scanner;
 import java.util.Random;
 
+// Declares the class name
 public class P2A4_White_3663976
 {
+  // This is the main method declaration
   public static void main(String[] args)
   {
+    // This calls the runGame method
     runGame();
   }
 
+  // Creates Scanner and Random objects
   public static Scanner keyboard = new Scanner(System.in);
   public static Random r = new Random();
 
+  // Created a new method to be called to run the game
   public static void runGame(){
+
+    // Declares a variable and calls the rollDice method
     int bigStartRoll = rollDice();
+
+    //calls the print Result method and passes the reult of Big Start Roll as an argument
     printResult(bigStartRoll);
   }
 
