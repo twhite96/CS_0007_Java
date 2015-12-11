@@ -2,40 +2,56 @@
 Rainbow Explosion, is a text-based game that is in the vein of hangman
 This activity will introduce the player to the game and store any guesses
 Date created: November 19, 2015
-Date modified: November 23, 2015
+Date modified: December 9, 2015
 */
 
-import java.util*;
+// Imports APIs
+import java.util.Scanner;
 import java.io.*;
 
+// Class definition
 public class P3A1_White_3663976
-{
+{	
+	// Main method
 	public static void main(String[] args)
 	{
 		Scanner keyboard = new Scanner(System.in);
-
-		System.out.println("Welcome to Rainbow Explosion.You're going to guess a letter. If you guess a correct letter, you win.
-		you get a color tick. If you guess wrong 6 times, the color bomb explodes and you lose.");
-
+		
+		// Welcome message
+		System.out.println("Welcome to Rainbow Explosion.You're going to guess a letter. If you guess a correct letter, you win." +
+		"If you guess wrong, you get a color tick. If you guess wrong 6 times, the color bomb explodes and you lose.");
+		
+		// Prompt for input
 		System.out.println("Enter a letter.");
-
-		Char letter = keyboard.next().charAt(0);
+		
+		// Gets a char from the user as input
+		char letter = keyboard.next().charAt(0);
+		
+		// Runs guessLetter1 method		
+		guessLetter1("cat", letter);
 	}
+	
+	// guessLetter1 method	
 	public static char guessLetter1(String word, char letter1)
-	{	String word = "cat";
-		for (int i = 0; i < word.length; i++) {
-		Char letter1 = word.charAt(i);
-		System.out.println(letter1);
-
-			if (letter1 == 'c') {
-			System.out.println("You guessed a correct letter. You win!");
-			} else {
-			System.out.println("You guessed a letter wrong. You get a red tick."
-			+ "_ _ _");
-			}
+	{	Scanner keyboard = new Scanner(System.in);
+		word = "cat";
+		word.indexOf(letter1);
+		if (letter1 == 'c' || letter1 == 'a' || letter1 == 't') {
+		System.out.println("You guessed a correct letter. You win! The secret word is\n cat. Press enter to quit.");
+		} else {
+		System.out.println("You guessed a letter wrong. You get a red tick."
+		+ "_ _ _" + "Game over. Please press enter to quit.");
 		}
+		
+		String quit = "";
+		quit = keyboard.nextLine();
+		
+		return letter1;
 	}
 }
+	
+
+
 
 
 
